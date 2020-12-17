@@ -24,3 +24,19 @@ color: orange;
 body{
 	background-color:  #181818;
 }
+#wc-block-product-search-1{
+	border-top-left-radius:  30px ;
+	border-bottom-left-radius:  30px ;
+	padding: 15px;
+}
+#bouton-barre-recherche{
+	color: white;
+	background-color: #F8841B;
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
+	margin: 0; 
+	padding : 15px;
+}
+#icone-search{
+	color: white;
+}
