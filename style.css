@@ -9,9 +9,18 @@ Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,
 Version: 2.6.1.1607164382
 Updated: 2020-12-05 11:33:02
 
+harmonie colorée :
+fond sombre : #181818
+jaune : #FBBF13
+orange : #F8841B
+violet : #9B78E6
+
 */
 
 
 .btn-connexion a  {
 color: orange;
 } 
+body{
+	background-color:  #181818;
+}
