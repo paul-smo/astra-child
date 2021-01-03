@@ -1,4 +1,4 @@
-/*
+    /*
 Theme Name: Astra Child
 Theme URI: https://wpastra.com/
 Template: astra
@@ -16,27 +16,150 @@ orange : #F8841B
 violet : #9B78E6
 
 */
+    
+    body::-webkit-scrollbar {
+        background-color: none;
+        width: 10px;
+    }
+    
+    body::-webkit-scrollbar-track {
+        background-color: none;
+    }
+    
+    body::-webkit-scrollbar-thumb {
+        background-color: #FBBF13;
+        border-radius: 16px;
+        border: none;
+    }
+    
+    body::-webkit-scrollbar-button {
+        display: none;
+    }
+    
+    #menu-item-28988 {
+        color: orange;
+    }
+    
+    body {
+        background-color: #181818;
+    }
+    
+    #wc-block-product-search-1 {
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        padding: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    #bouton-barre-recherche {
+        color: white;
+        background-color: #F8841B;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+        margin: 0;
+        padding: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    #icone-search {
+        color: white;
+    }
+    
+    ast-flex main-header-container {
+        position: absolute;
+        visibility: hidden;
+    }
+    
+    .site-footer {
+        background-color: white;
+    }
+    
+    wp-block-image {
+        margin-bottom: -10px;
+    }
+    
+    #customBtn {
+        width: 34%;
+        color: black;
+    }
+    
+    galogin-or {
+        visibility: hidden;
+    }
+    
+    .ast-container .tutor-courses-wrap,
+    .ast-container .tutor-dashboard-student {
+        margin: 110px 0;
+    }
 
+@media screen and (max-width: 800px) {
+.bureau{
+	visibility: hidden;
+	position: absolute;
+}
+	
+}
+    /*
+        .vert {
+background-color: violet;
+        }
+       
 
-.btn-connexion a  {
-color: orange;
+        input[type="text"],
+input[type="email"],
+textarea
+{
+    border: solid 2.5px;
+    border-color: #F8841B;
+    border-radius: 15px;
 } 
-body{
-	background-color:  #181818;
-}
-#wc-block-product-search-1{
-	border-top-left-radius:  30px ;
-	border-bottom-left-radius:  30px ;
-	padding: 15px;
-}
-#bouton-barre-recherche{
-	color: white;
-	background-color: #F8841B;
-	border-bottom-right-radius: 30px;
-	border-top-right-radius: 30px;
-	margin: 0; 
-	padding : 15px;
-}
-#icone-search{
-	color: white;
-}
+       
+        .wpcf7 .envoi{
+background-color: #F8841B;
+color: white;
+border-radius: 3px;
+        }
+
+        .message{
+            height: 30%;
+        }
+*/
+    
+    .wpcf7-text {
+        border: 0.2vw solid #F8841B;
+        border-radius: 5px;
+        font-size: 15px;
+        color: black;
+    }
+    
+    .email {
+        border: 0.2vw solid #F8841B;
+        background-color: white;
+        border-radius: 5px;
+    }
+    
+    .wpcf7-textarea {
+        border: 0.2vw solid #F8841B;
+        background-color: white;
+        font-size: 15px;
+        color: black;
+        padding: 2px;
+    }
+    
+    .wpcf7 .envoi {
+        background-color: #F8841B;
+        color: white;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+    
+    .fas fa-user {
+        display: block;
+        top: -2px;
+        font-size: 400px;
+        width: 200%;
+    }
